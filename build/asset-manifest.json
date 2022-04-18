@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dadef435.css",
+    "main.js": "/static/js/main.77d4a63d.js",
+    "static/media/KCIM-logo-blue.png": "/static/media/KCIM-logo-blue.d656ff5622aa1bf70553.png",
+    "static/media/kyocera-logo-black.png": "/static/media/kyocera-logo-black.5872dc5e153b4d5e38d2.png",
+    "static/media/kyocera-logo.png": "/static/media/kyocera-logo.7010c055ac849473b014.png",
+    "static/media/litedms-text-logo.png": "/static/media/litedms-text-logo.0b7e1308436a273009dc.png",
+    "static/media/tacim-text-logo.png": "/static/media/tacim-text-logo.126f5629d30514f038d2.png",
+    "index.html": "/index.html",
+    "main.dadef435.css.map": "/static/css/main.dadef435.css.map",
+    "main.77d4a63d.js.map": "/static/js/main.77d4a63d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dadef435.css",
+    "static/js/main.77d4a63d.js"
+  ]
+}

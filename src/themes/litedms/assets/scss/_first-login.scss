@@ -1,0 +1,20 @@
+.firstLoginInput {
+  @extend .forgotInput;
+  margin: 0 0 16px 0 !important;
+}
+
+.firstLoginInputEmail {
+  @extend .forgotInput;
+  margin: 0 0 16px 0 !important;
+  background-color: $backgroundColorLightGrey;
+}
+
+.firstLoginButton {
+  @extend .loginButton;
+  margin: 0 !important;
+}
+
+.kyoceraBlackLogoFl {
+  @extend .kyoceraBlackLogo;
+  margin-top: 28px;
+}

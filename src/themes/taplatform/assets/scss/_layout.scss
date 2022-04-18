@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.kyoceraLogo {
+  padding: 20px;
+  width: 200px;
+  opacity: 0;
+}
+
+.ppLogo {
+  padding: 20px;
+  width: 300px;
+}

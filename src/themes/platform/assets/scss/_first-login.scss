@@ -1,0 +1,8 @@
+.firstLoginInput {
+  @extend .forgotInput;
+  margin: 0 0 16px 0 !important;
+}
+
+.firstLoginButton {
+  @extend .loginButton;
+}

@@ -1,0 +1,23 @@
+.update {
+  min-width: 265px;
+  max-width: 420px;
+}
+
+.updateText {
+  margin: 25px 0 19px 0 !important;
+  font-size: 15.7px !important;
+  color: $fontColorWhite;
+}
+
+.updateLink {
+  color: $updateLinkColor !important;
+  text-decoration: none;
+  &:hover {
+    color: $updateHoverLinkColor !important;
+    text-decoration: underline;
+  }
+}
+
+.updatedSection {
+  min-width: 300px;
+}

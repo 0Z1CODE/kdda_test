@@ -1,0 +1,68 @@
+.loginInput {
+  height: 38px;
+  width: 255px;
+  background: $inputBackgroundColorWhite;
+  border-radius: $borderRadius;
+  margin-bottom: 16px !important;
+  & > div {
+    height: 38px;
+  }
+  & > div > input {
+    height: 24px;
+    padding: 6px 12px;
+    font-size: $inputFontSize;
+    box-shadow: $inputBoxShadow;
+    border: $inputBorder;
+    border-radius: $borderRadius;
+    color: $fontColorDarkGrey;
+    letter-spacing: normal;
+    border-color: $inputBorderColor;
+    &::placeholder {
+      font-size: $inputFontSize !important;
+      opacity: 1;
+      color: $fontColorDarkGrey;
+    }
+    &:focus {
+      outline: 0;
+      box-shadow: $inputFocusedBoxShadow;
+      border-color: $inputFocusedBorderColor;
+    }
+  }
+}
+
+.loginButton {
+  width: 255px;
+  height: 38px;
+  margin: 0 0 10.5px 0 !important;
+  box-shadow: none !important;
+  background-color: $buttonBackgrounColor !important;
+  color: $fontColorWhite !important;
+  font-size: $buttonFontSize !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  pointer-events: auto !important;
+  &:active {
+    outline: $buttonOutline;
+    border-radius: $borderRadius;
+  }
+
+  &:disabled {
+    cursor: not-allowed !important;
+    opacity: 0.65;
+    outline: 0px;
+  }
+}
+
+.linkForgotPassword {
+  color: $fontColorGrey;
+  font-size: $linkFontSize;
+  text-decoration: none;
+  margin-bottom: 34px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.kyoceraBlackLogo {
+  height: 24px;
+}

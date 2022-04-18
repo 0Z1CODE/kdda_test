@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: auto;
+  height: 30px;
+  color: $fontColorWhite;
+}
+
+.copyright {
+  font-size: $linkFontSize !important;
+  margin-left: 15px !important;
+  letter-spacing: normal !important;
+}
+
+.privacy {
+  font-size: $linkFontSize;
+  color: $fontColorWhite !important;
+  margin: 0 15px 0 0 !important;
+}
+
+.license {
+  font-size: $linkFontSize;
+  color: $fontColorWhite !important;
+  margin: 0 15px 0 0 !important;
+}

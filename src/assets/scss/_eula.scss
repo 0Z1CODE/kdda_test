@@ -1,0 +1,87 @@
+.eulaSection {
+  max-width: 640px;
+  min-width: 375px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 26px;
+}
+
+.eulaWelcomeText {
+  font-size: 36px !important;
+  margin-bottom: 32px !important;
+  letter-spacing: normal !important;
+}
+
+.eulaMainText {
+  font-size: 18px !important;
+  margin-bottom: 25px !important;
+  letter-spacing: normal !important;
+}
+
+.eulaLink {
+  color: $eulaLinkColor !important;
+  &:hover {
+    color: $eulaLinkHoverColor !important;
+  }
+}
+
+.eulaCheckBoxText {
+  display: flex;
+  align-items: center;
+  letter-spacing: normal !important;
+  font-size: 18px !important;
+  margin-bottom: 5px !important;
+}
+
+.eulaCheckBox {
+  padding: 0 5px 0 0 !important;
+
+  & > input {
+    height: 16px !important;
+    width: 16px !important;
+  }
+
+  & > svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.eulaButtonSection {
+  margin-top: 25px;
+}
+
+.eulaButtonCancel {
+  background-color: $eulaButtonCancelBgColor;
+  font-size: $eulaButtonFontSize;
+  text-transform: none !important;
+  color: $eulaButtonFontColor;
+  height: 38px;
+
+  &:hover {
+    background-color: $eulaButtonCancelHoverBgColor;
+  }
+
+  &:active {
+    outline: $eulaButtonCancelOutline;
+  }
+}
+
+.eulaButtonOk {
+  background-color: $eulaButtonOKBgColor;
+  font-size: $eulaButtonFontSize;
+  text-transform: none !important;
+  color: $eulaButtonFontColor;
+  height: 38px;
+  pointer-events: auto !important;
+
+  &:active {
+    outline: $eulaButtonOKOutline;
+  }
+
+  &:disabled {
+    background-color: $eulaButtonOKDisabledBgColor;
+    outline: 0px;
+    cursor: not-allowed !important;
+  }
+}

@@ -1,0 +1,15 @@
+.firstLoginInput {
+  @extend .forgotInput;
+  margin: 0 0 16px 0 !important;
+}
+
+.firstLoginInputEmail {
+  @extend .forgotInput;
+  margin: 0 0 16px 0 !important;
+  background-color: $inputBackgroundColorLightGrey !important;
+}
+
+.firstLoginButton {
+  @extend .loginButton;
+  margin-bottom: 32px !important;
+}

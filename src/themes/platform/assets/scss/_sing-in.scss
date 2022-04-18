@@ -1,0 +1,71 @@
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  & > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 38px;
+    color: $fontColorWhite;
+    background: $inputBackgroundColor;
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+.loginInput {
+  height: 38px;
+  width: 262px;
+  border-radius: 0 4px 4px 0;
+  background: $inputBackgroundColor;
+  & > div > input {
+    height: 26px;
+    padding: 6px 11px;
+    font-size: $inputFontSize;
+    color: $fontColorWhite;
+    letter-spacing: normal;
+    &::placeholder {
+      font-size: $inputFontSize !important;
+      opacity: 1;
+    }
+    &:focus {
+      outline: $inputOutline;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+}
+
+.loginButton {
+  min-width: 300px !important;
+  height: 38px;
+  margin-bottom: 15px !important;
+  box-shadow: none !important;
+  background-color: $buttonBackgrounColor !important;
+  font-size: $buttonFontSize !important;
+  color: $fontColorWhite !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  pointer-events: auto !important;
+
+  &:active {
+    outline: $buttonOutline;
+    border-radius: $borderRadius;
+  }
+
+  &:disabled {
+    cursor: not-allowed !important;
+    opacity: 0.65;
+    outline: 0px;
+  }
+}
+
+.linkForgotPassword {
+  color: $fontColorWhite;
+  font-size: $linkFontSize;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

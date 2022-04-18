@@ -1,0 +1,26 @@
+@import '_vars.scss';
+@import './header';
+@import './layout';
+@import './sing-in';
+@import './forgot-password';
+@import './reset-password';
+@import './first-login';
+@import './profile-update';
+@import './footer';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+.wrapper {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: $mainBackgroundColor;
+  color: $fontColorBlack;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}

@@ -1,0 +1,50 @@
+.ttSection {
+  padding: 7px 0 5px 0;
+  min-width: none;
+}
+
+.ttMainText {
+  font-size: $mainFontSize !important;
+  font-weight: $fontWeight !important;
+}
+
+.ttvalidText {
+  font-size: $mainFontSize !important;
+  & > i {
+    margin: 0 3px 0 8px;
+  }
+}
+
+.reqTextList {
+  font-size: $mainFontSize !important;
+  margin-left: 40px !important;
+  list-style-type: none;
+  & > li {
+    margin: 4px 0;
+  }
+}
+
+.ttReq {
+  display: flex;
+  align-items: center;
+  & > i {
+    margin-left: 1px !important;
+  }
+}
+
+.ttReqText {
+  padding-left: 5px;
+}
+
+.ttPassMatch {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.ttPassMatchText {
+  font-size: $mainFontSize !important;
+  & > i {
+    margin-right: 4px !important;
+  }
+}

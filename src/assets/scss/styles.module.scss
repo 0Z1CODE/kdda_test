@@ -1,0 +1,43 @@
+@import '_vars.scss';
+@import './_tooltips.scss';
+@import './_eula.scss';
+
+.snackbar {
+  height: 50px;
+  top: 10px !important;
+  border-radius: $mainBorderRadius;
+  background-color: $alertBackgroundColor;
+}
+
+.alertContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.alertText {
+  margin: 0 10px 0 20px !important;
+  letter-spacing: normal !important;
+  color: $fontColorWhite;
+}
+
+.alertCloseBtn {
+  min-height: 50px !important;
+  min-width: 54px !important;
+  font-size: 28px !important;
+  font-weight: $fontWeight !important;
+  color: $fontColorWhite !important;
+  text-shadow: $alertTextShadowColor !important;
+  padding: 0 !important;
+
+  & > span {
+    transform: $alertButtonRotate;
+  }
+
+  &:hover {
+    background-color: transparent !important;
+    color: $fontColorBlack !important;
+    cursor: pointer;
+  }
+}

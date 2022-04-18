@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+
+.headerButton {
+  padding: 0 15px 0 0 !important;
+  color: $fontColorWhite !important;
+  font-size: $menuFontSize !important;
+
+  & div > span {
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  & i:first-child {
+    padding-right: 6px;
+  }
+  & i:last-child {
+    padding-left: 5px;
+  }
+}
+
+.headerMenu {
+  margin-top: 2px;
+}
+
+.headerMenuItem {
+  font-size: $menuFontSizeItem !important;
+  padding: 4px 83px 4px 24px !important;
+  letter-spacing: normal !important;
+}
